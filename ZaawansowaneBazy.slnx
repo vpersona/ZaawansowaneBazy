@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ZaawansowaneBazy/ZaawansowaneBazy.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
