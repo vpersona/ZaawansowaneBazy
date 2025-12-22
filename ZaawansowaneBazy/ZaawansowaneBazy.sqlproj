@@ -24,6 +24,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <IncludeSchemaNameInFileName>True</IncludeSchemaNameInFileName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -72,6 +73,9 @@
     <Folder Include="dbo\User Defined Types\" />
     <Folder Include="Security\" />
     <Folder Include="SalesLT\XMLSchemaCollections\" />
+    <Folder Include="Student_2\" />
+    <Folder Include="Student_2\Views\" />
+    <Folder Include="Student_2\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
@@ -111,5 +115,11 @@
     <Build Include="SalesLT\XMLSchemaCollections\ProductDescriptionSchemaCollection.sql" />
     <Build Include="Security\Permissions.sql" />
     <Build Include="ExtendedProperties.sql" />
+    <Build Include="SalesLT\Views\SalesLT.vPriceDiff.sql" />
+    <Build Include="Student_2\Views\Student_2.TheBestCustomers.sql" />
+    <Build Include="dbo\Functions\dbo.ufn_BMI.sql" />
+    <Build Include="Student_2\Functions\Student_2.ufn_IsPriceHigherThanCurrent.sql" />
+    <Build Include="Student_2\Functions\Student_2.ufn_PriceCheck.sql" />
+    <Build Include="Security\Student_2.sql" />
   </ItemGroup>
 </Project>
