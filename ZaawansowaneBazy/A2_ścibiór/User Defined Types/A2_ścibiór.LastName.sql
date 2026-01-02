@@ -1,0 +1,3 @@
+﻿CREATE TYPE [A2_ścibiór].[LastName]
+    FROM NVARCHAR (100) NOT NULL;
+

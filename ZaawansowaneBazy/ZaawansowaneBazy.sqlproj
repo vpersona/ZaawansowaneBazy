@@ -76,6 +76,12 @@
     <Folder Include="Student_2\" />
     <Folder Include="Student_2\Views\" />
     <Folder Include="Student_2\Functions\" />
+    <Folder Include="233792\Views\" />
+    <Folder Include="233792\Functions\" />
+    <Folder Include="233792\Stored Procedures\" />
+    <Folder Include="A2_ścibiór\" />
+    <Folder Include="A2_ścibiór\User Defined Types\" />
+    <Folder Include="233792\User Defined Types\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
@@ -121,5 +127,17 @@
     <Build Include="Student_2\Functions\Student_2.ufn_IsPriceHigherThanCurrent.sql" />
     <Build Include="Student_2\Functions\Student_2.ufn_PriceCheck.sql" />
     <Build Include="Security\Student_2.sql" />
+    <Build Include="SalesLT\Tables\SalesLT.ProductInventory.sql" />
+    <Build Include="233792\Views\233792.vCustomersActive.sql" />
+    <Build Include="233792\Functions\233792.CustomerExists.sql" />
+    <Build Include="233792\Functions\233792.ufn_CustomerOrderDetails.sql" />
+    <Build Include="233792\Stored Procedures\233792.UpdateCustomerData.sql" />
+    <Build Include="233792\Stored Procedures\233792.TopProdSummary.sql" />
+    <Build Include="233792\Stored Procedures\233792.ReturnCustomer.sql" />
+    <Build Include="233792\Stored Procedures\233792.PremiumCustomers.sql" />
+    <Build Include="233792\Stored Procedures\233792.AddCustomer.sql" />
+    <Build Include="A2_ścibiór\User Defined Types\A2_ścibiór.LastName.sql" />
+    <Build Include="233792\User Defined Types\233792.SummaryTbType.sql" />
+    <Build Include="Security\A2_ścibiór.sql" />
   </ItemGroup>
 </Project>
